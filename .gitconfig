@@ -1,3 +1,8 @@
+[user]
+  
+  email = seglo@randonom.com
+  name = seglo
+
 [alias]
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
@@ -125,6 +130,7 @@
 
 	# Detect copies as well as renames
 	renames = copies
+  tool = meld
 
 [help]
 
@@ -135,6 +141,7 @@
 
 	# Include summaries of merged commits in newly created merge commit messages
 	log = true
+  tool = meld
 
 [push]
 
