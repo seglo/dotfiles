@@ -28,10 +28,9 @@ let g:indexer_debugLogLevel = 2
 set nocompatible
 filetype off 
 " set runtimepath+=~/.vim/bundle/Vundle.vim,~/.vim/bundle/vim-jira,~/.vim/bundle/vim-mpc
-set rtp+=~/.vim/bundle/vundle/
-call vundle#rc()
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/Vundle.vim'
 
 Plugin 'bling/vim-airline'
 Plugin 'derekwyatt/ag.vim'
@@ -886,3 +885,6 @@ if has("gui_running")
   endif
 endif
 :nohls
+
+" Use powerline fonts for vim-airline
+let g:airline_powerline_fonts = 1
