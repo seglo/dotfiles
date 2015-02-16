@@ -1,4 +1,4 @@
-# Mathias’s dotfiles
+# seglo's dotfiles (based on Mathias’s dotfile)
 
 ![Screenshot of my shell prompt](http://i.imgur.com/EkEtphC.png)
 
@@ -9,8 +9,14 @@
 You can clone the repository wherever you want. (I like to keep it in `~/Projects/dotfiles`, with `~/dotfiles` as a symlink.) The bootstrapper script will pull in the latest version and copy the files to your home folder.
 
 ```bash
-git clone https://github.com/mathiasbynens/dotfiles.git && cd dotfiles && source bootstrap.sh
+git clone https://github.com/seglo/dotfiles.git && cd dotfiles && source bootstrap.sh
 ```
+Update powerline fonts with font-config for `vim-airline`
+
+```bash
+fc-cache -vf ~/.fonts
+```
+In order to install vim vundles you must open vim and run `:PluginInstall`
 
 To update, `cd` into your local `dotfiles` repository and then:
 
