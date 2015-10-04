@@ -459,7 +459,7 @@ endif
 nmap ,sf :AgForCurrentFileDir 
 nmap ,sr :AgForProjectRoot 
 nmap ,se :AgForExtension 
-let g:agprg = '/usr/local/bin/ag'
+let g:agprg = '/usr/bin/ag'
 let g:ag_results_mapping_replacements = {
 \   'open_and_close': '<cr>',
 \   'open': 'o',

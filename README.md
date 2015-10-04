@@ -16,7 +16,11 @@ Update powerline fonts with font-config for `vim-airline`
 ```bash
 fc-cache -vf ~/.fonts
 ```
-In order to install vim vundles you must open vim and run `:PluginInstall`
+In order to install vim vundles you must open vim and run `:PluginInstall` or run the following.
+
+```bash
+vim +PluginInstall +qall
+```
 
 To update, `cd` into your local `dotfiles` repository and then:
 
@@ -29,6 +33,9 @@ Alternatively, to update while avoiding the confirmation prompt:
 ```bash
 set -- -f; source bootstrap.sh
 ```
+
+* When using PuTTY you can download a powerline compatible font here:
+http://pdalinis.blogspot.ca/2013/08/putty-powerline.html
 
 ### Git-free install
 
